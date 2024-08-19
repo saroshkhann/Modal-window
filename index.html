@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal Window</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="window">
+    <div class="window__btns">
+      <button class="btn">My profile</button>
+      <button class="btn">My profile</button>
+      <button class="btn">My profile</button>
+    </div>
+  </main>
+
+  <div class="modal hidden">
+
+    <button class="modal__close">&times;</button>
+    <div class="img__container">
+    </div>
+
+    <p class="modal__name">Sarosh khan</p>
+    <p class="modal__country">Islamabad, Pakistan</p>
+    <p class="modal__skills">Web Developer & Web Designer</p>
+    <div class="modal__btns">
+      <button class="mbtn">Message</button>
+      <button class="mbtn">Following</button>
+    </div>
+  </div>
+  <div class="overlay hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
